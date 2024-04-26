@@ -1,0 +1,292 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.navbar-nav {
+    padding-right: 20px
+}
+
+.nav-item {
+    font-size: 22px;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/tv-hero.webp);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.hero-title h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 7em;
+    text-shadow: 1px 1px 5px white;
+    padding-bottom: 30px;
+}
+
+.search {
+    background-color: rgb(218, 218, 218, 0.4);
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    padding: 40px;
+}
+
+.search-field {
+    height: 80px;
+    font-size: 25px !important;
+}
+
+.search-button {
+    height: 80px;
+    font-size: 25px !important;
+    font-weight: 900 !important;
+    color: rgb(54, 54, 54) !important;
+}
+
+.section-2-carousel {
+    padding: 70px 0 100px 0px;
+}
+
+.section-2-title {
+    font-size: 4em;
+    font-weight: 900;
+
+}
+
+.section-2-subtitle {
+    font-size: 1.8em;
+    padding-bottom: 40px
+}
+
+.carousel-caption {
+    background-color: rgb(218, 218, 218, 0.8);
+    color: black !important;
+    border-radius: 5px;
+}
+
+.carousel-caption h5 {
+    font-size: 30px;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+}
+
+.section-3-platforms {
+    background-color: rgb(82, 24, 136);
+    padding: 80px;
+}
+
+.img-platforms {
+    background-color: black;
+    width: 200px;
+    height: 200px !important;
+    margin-bottom: 40px;
+}
+.img-platforms:hover{
+    width: 210px;
+    height: 210px !important;
+}
+
+.section-3-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+.section-3-subtitle{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(160, 160, 160);
+}
+
+.section-4 {
+    padding: 50px;
+    background-color: #e6e6e6;
+}
+
+.section-4-text {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.btn-warning {
+    font-size: 25px !important;
+    font-weight: 500 !important;
+}
+
+.section-5 {
+    background-image: url(img/plataformas.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+
+.section-5-title {
+    font-size: 4.2em;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    padding-bottom: 20px;
+}
+.section-5-back{
+    background-color: rgb(218, 218, 218, 0.7);  
+}
+.section-5-text{ 
+    font-size: 1.5em;
+}
+
+.social-media {
+    font-size: 2.5em;
+    padding: 30px 0px;
+    border-top: 1px solid grey;
+}
+.foot-icons:hover{
+    font-size: 1.1em;
+}
+
+.foot-icons {
+    padding-right: 15px;
+}
+
+@media screen and (max-width:1400px) {
+    .hero {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .hero-title {
+        font-size: 0.7em;
+    }
+
+    .search {
+        font-size: 2em;
+        min-height: 20px;
+    }
+
+    .search-field {
+        height: 50px;
+    }
+
+    .search-button {
+        height: 50px;
+    }
+
+    .section-2-title {
+        font-size: 3.5em;
+    }
+    .section-5-back{
+        margin-top: 20px !important;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .search-button {
+        width: 50px;
+        overflow: hidden;
+        color: white !important;
+        font-size: 0px !important;
+        background-image: url(/img/lupa.png);
+        background-size: 30px 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .section-2-title {
+        font-size: 2.7em;
+    }
+
+    .hero {
+        padding: 30px;
+    }
+
+    .search {
+        padding: 20px !important;
+    }
+}
+
+@media screen and (max-width:693px) {
+    .navbar-toggler {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:554px) {
+    .section-2-title {
+        font-size: 2.2em;
+    }
+
+    .section-2-subtitle {
+        font-size: 1.3em;
+    }
+
+    .section-2-carousel {
+        padding: 30px 0 60px 0px;
+    }
+}
+
+@media screen and (max-width:515px) {
+    .hero-title {
+        font-size: 0.5em;
+    }
+
+    .hero {
+        min-height: 100vh;
+    }
+}
+@media screen and (max-width:483px) {
+.section-5-title{
+    font-size: 3em
+}
+
+}
+@media screen and (max-width:460px) {
+    .section-2-title {
+        font-size: 1.6em;
+        padding-bottom: 10px
+    }
+
+    .section-3-title {
+        font-size: 2.8em;
+    }
+
+    .hero {
+        padding-top: 30px;
+    }
+
+    .search {
+        min-height: 80px;
+    }
+}
+
+
+@media screen and (max-width:415px) {
+    .hero-title {
+        font-size: 0.4em;
+    }
+
+    .section-3-title {
+        font-size: 2.5em;
+    }
+
+    .section-2-title {
+        font-size: 1.7em;
+    }
+
+    .section-3-platforms {
+        padding: 40px;
+    }
+}
+@media screen and (max-width:379px) {
+    .section-5-title{
+        font-size: 2.5em
+    }
+    
+    }
